@@ -9,8 +9,7 @@ do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
-do.cleanuponabort=0
-NO_MAGISK_CHECK=1 
+do.cleanuponabort=0 
 device.name1=lancelot
 device.name2=merlinx
 device.name3=shiva
@@ -21,6 +20,7 @@ supported.patchlevels=
 '; } # end properties
 
 # shell variables
+NO_MAGISK_CHECK=1
 block=/dev/block/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
