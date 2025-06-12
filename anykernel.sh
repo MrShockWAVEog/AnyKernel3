@@ -20,7 +20,6 @@ supported.patchlevels=
 '; } # end properties
 
 # shell variables
-NO_MAGISK_CHECK=1
 block=/dev/block/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
