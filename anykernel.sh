@@ -12,6 +12,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=merlin
 device.name2=lancelot
+device.name3=selene
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -25,8 +26,8 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## boot shell variables
-block=/dev/block/by-name/boot;
-is_slot_device=0;
+block=auto;
+is_slot_device=auto;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
